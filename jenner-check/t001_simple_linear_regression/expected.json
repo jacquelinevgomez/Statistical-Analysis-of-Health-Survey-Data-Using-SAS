@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-23T09:16:41Z",
+  "_captured_run_id": "r_2bdd219789424427ba2cc3471bbc81a8",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote meps.phar5323 (100 rows, 5 columns).",
+    "NOTE: Library MEPS uses 1 concatenated paths.",
+    "NOTE: Option OBS changed to 100.",
+    "NOTE: PROC REG: processed 1 job(s) in batch"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

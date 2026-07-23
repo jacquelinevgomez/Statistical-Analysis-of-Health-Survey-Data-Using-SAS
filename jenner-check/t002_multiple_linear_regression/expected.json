@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-23T09:18:17Z",
+  "_captured_run_id": "r_9f09b9ed41fa4cdaa5d0ad750e11754b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote meps.phar5323 (100 rows, 5 columns).",
+    "NOTE: PROC CORR data=meps.phar5323",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: PROC REG: processed 1 job(s) in batch"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

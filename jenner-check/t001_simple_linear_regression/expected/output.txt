@@ -1,0 +1,21 @@
+                                                                                                           The REG Procedure                                                                                                            
+                                                                                                             Model: MODEL1                                                                                                              
+                                                                                                       Dependent Variable: VPCS42                                                                                                       
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1      1344.86884   1344.86884     24.65    <.0001
+Error                  98      5345.87802     54.54978                    
+Corrected Total        99      6690.74686                                 
+
+Root MSE           7.38578    R-Square            0.2010
+Dependent Mean      39.93210    Adj R-Sq            0.1929
+Coeff Var         18.49585
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  49.81674         2.12334     23.46    <.0001
+age               1  -0.19581         0.03944     -4.97    <.0001
+
