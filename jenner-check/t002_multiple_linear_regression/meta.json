@@ -3,5 +3,5 @@
   "source_file": "2-Multiple-Linear-Regression/2) Code.sas",
   "source_blob_sha": "cceb981c4b1aabd09704b9aa9deea3604d40cea3",
   "source_commit": "a66b51f94a21b851d10cd10ae37b6455ac834691",
-  "notes": "Multiple linear regression of VPCS42 on age, phlth_grp5, mhlth_grp5, er_vis from the author's MEPS 2020 analysis. Exercises proc corr (multicollinearity), proc reg with /tol vif, proc means with Q1/median/Q3, and six TEST statements (linear hypotheses TEST1-TEST6). Same libname substitution as t001: meps->WORK, synthetic phar5323 with matching columns/types. Analysis logic unchanged. obs=100 cap applied."
+  "notes": "Multiple linear regression of VPCS42 on age, phlth_grp5, mhlth_grp5, er_vis from the author's MEPS 2020 analysis. Exercises proc corr (multicollinearity), proc reg with /tol vif, proc means with Q1/median/Q3, and six TEST statements (linear hypotheses TEST1-TEST6). Same libname substitution as t001: meps->WORK, self-contained synthetic phar5323 with matching columns/types. Analysis logic unchanged. obs=100 cap applied."
 }

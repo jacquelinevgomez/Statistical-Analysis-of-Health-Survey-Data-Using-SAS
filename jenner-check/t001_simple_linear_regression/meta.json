@@ -3,5 +3,5 @@
   "source_file": "1-Simple-Linear-Regression/2) Code.sas",
   "source_blob_sha": "5493ded18321a88d74e47c08d27f001d0dbe9c81",
   "source_commit": "a66b51f94a21b851d10cd10ae37b6455ac834691",
-  "notes": "Simple linear regression of physical health score VPCS42 on age (proc reg model VPCS42=age) from the author's MEPS 2020 analysis. Original opened libname meps to a local Windows path C:\\Data\\MEPS\\Datasets; autoexec points meps at WORK and builds a 400-row synthetic phar5323 with the same columns/types (age carries the negative VPCS42 association the study describes). proc reg logic unchanged. obs=100 cap applied."
+  "notes": "Simple linear regression of physical health score VPCS42 on age (proc reg model VPCS42=age) from the author's MEPS 2020 analysis. Original opened libname meps to a local Windows path C:\\Data\\MEPS\\Datasets; the bundle repoints meps at WORK and builds a self-contained 400-row synthetic phar5323 with the same columns/types (age carries the negative VPCS42 association the study describes). proc reg logic unchanged. obs=100 cap applied."
 }
