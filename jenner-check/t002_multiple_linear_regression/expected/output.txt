@@ -1,0 +1,151 @@
+                    The CORR Procedure
+            4 Variables:    age   phlth_grp5   mhlth_grp5   er_vis
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+age              100  50.48000  18.82266  5048.00000  19.00000  80.00000
+phlth_grp5       100   2.98000   1.51744   298.00000   1.00000   5.00000
+mhlth_grp5       100   2.97000   1.40314   297.00000   1.00000   5.00000
+er_vis           100   0.57000   0.71428    57.00000   0.00000   3.00000
+   Pearson Correlation Coefficients, N = 100
+          Prob > |r| under H0: Rho=0
+                 age  phlth_grp5  mhlth_grp5    er_vis
+--------  --------  --------  --------  --------
+age        1.00000   0.03323  -0.11227  -0.16180
+              .       0.7428    0.2661    0.1078
+phlth_grp5   0.03323   1.00000  -0.03824  -0.23168
+            0.7428      .       0.7056    0.0204
+mhlth_grp5  -0.11227  -0.03824   1.00000  -0.08355
+            0.2661    0.7056      .       0.4086
+er_vis    -0.16180  -0.23168  -0.08355   1.00000
+            0.1078    0.0204    0.4086      .
+                                                                                                           The REG Procedure                                                                                                            
+                                                                                                             Model: MODEL1                                                                                                              
+                                                                                                       Dependent Variable: VPCS42                                                                                                       
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   4      1633.90528    408.47632      7.67    <.0001
+Error                  95      5056.84158     53.22991                    
+Corrected Total        99      6690.74686                                 
+
+Root MSE           7.29588    R-Square            0.2442
+Dependent Mean      39.93210    Adj R-Sq            0.2124
+Coeff Var         18.27072
+
+                                       Parameter Estimates                                       
+
+Variable          DF  Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+----------  --------  --------  --------------  --------  --------  ---------  ------------------
+Intercept          1  52.72723         3.44336     15.31    <.0001          .                   .
+age                1  -0.19108         0.03981     -4.80    <.0001    0.95774             1.04412
+phlth_grp5         1  -0.78458         0.49765     -1.58    0.1182    0.94285             1.06062
+mhlth_grp5         1  -0.48139         0.52974     -0.91    0.3658    0.97320             1.02754
+er_vis             1   1.08481         1.07591      1.01    0.3159    0.91039             1.09843
+
+                                                                                                          The MEANS Procedure
+
+ Variable           N           Mean        Maximum        Minimum   Lower Quartile         Median   Upper Quartile
+ ------------------------------------------------------------------------------------------------------------------
+ age              100     50.4800000     80.0000000     19.0000000       34.0000000     50.5000000       68.0000000
+ phlth_grp5       100      2.9800000      5.0000000      1.0000000        2.0000000      3.0000000        4.0000000
+ mhlth_grp5       100      2.9700000      5.0000000      1.0000000        2.0000000      3.0000000        4.0000000
+ er_vis           100      0.5700000      3.0000000      0.0000000        0.0000000      0.0000000        1.0000000
+ VPCS42           100     39.9321000     57.0800000     21.3400000       33.3200000     40.6050000       46.0750000
+ ------------------------------------------------------------------------------------------------------------------
+
+                                                                                                           The REG Procedure                                                                                                            
+                                                                                                             Model: MODEL1                                                                                                              
+                                                                                                       Dependent Variable: VPCS42                                                                                                       
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   4      1633.90528    408.47632      7.67    <.0001
+Error                  95      5056.84158     53.22991                    
+Corrected Total        99      6690.74686                                 
+
+Root MSE           7.29588    R-Square            0.2442
+Dependent Mean      39.93210    Adj R-Sq            0.2124
+Coeff Var         18.27072
+
+                       Parameter Estimates                        
+
+Variable          DF  Estimate  Standard Error   t Value  Pr > |t|
+----------  --------  --------  --------------  --------  --------
+Intercept          1  52.72723         3.44336     15.31    <.0001
+age                1  -0.19108         0.03981     -4.80    <.0001
+phlth_grp5         1  -0.78458         0.49765     -1.58    0.1182
+mhlth_grp5         1  -0.48139         0.52974     -0.91    0.3658
+er_vis             1   1.08481         1.07591      1.01    0.3159
+
+                                                                                                          The MEANS Procedure
+
+ Variable           N           Mean        Maximum        Minimum   Lower Quartile         Median   Upper Quartile
+ ------------------------------------------------------------------------------------------------------------------
+ age              100     50.4800000     80.0000000     19.0000000       34.0000000     50.5000000       68.0000000
+ phlth_grp5       100      2.9800000      5.0000000      1.0000000        2.0000000      3.0000000        4.0000000
+ mhlth_grp5       100      2.9700000      5.0000000      1.0000000        2.0000000      3.0000000        4.0000000
+ er_vis           100      0.5700000      3.0000000      0.0000000        0.0000000      0.0000000        1.0000000
+ VPCS42           100     39.9321000     57.0800000     21.3400000       33.3200000     40.6050000       46.0750000
+ ------------------------------------------------------------------------------------------------------------------
+
+                                                                                                           The REG Procedure                                                                                                            
+                                                                                                             Model: MODEL1                                                                                                              
+                                                                                                       Dependent Variable: VPCS42                                                                                                       
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   4      1633.90528    408.47632      7.67    <.0001
+Error                  95      5056.84158     53.22991                    
+Corrected Total        99      6690.74686                                 
+
+Root MSE           7.29588    R-Square            0.2442
+Dependent Mean      39.93210    Adj R-Sq            0.2124
+Coeff Var         18.27072
+
+                       Parameter Estimates                        
+
+Variable          DF  Estimate  Standard Error   t Value  Pr > |t|
+----------  --------  --------  --------------  --------  --------
+Intercept          1  52.72723         3.44336     15.31    <.0001
+age                1  -0.19108         0.03981     -4.80    <.0001
+phlth_grp5         1  -0.78458         0.49765     -1.58    0.1182
+mhlth_grp5         1  -0.48139         0.52974     -0.91    0.3658
+er_vis             1   1.08481         1.07591      1.01    0.3159
+
+     Test 1: F Value = 1.4160, Num DF = 1, Den DF = 95      
+
+Source                   DF  Mean Square   F Value    Pr > F
+-----------------  --------  -----------  --------  --------
+Linear Hypothesis         1     75.37301      1.42    0.2370
+
+     Test 2: F Value = 0.3045, Num DF = 1, Den DF = 95      
+
+Source                   DF  Mean Square   F Value    Pr > F
+-----------------  --------  -----------  --------  --------
+Linear Hypothesis         1     16.20797      0.30    0.5824
+
+     Test 3: F Value = 1.4223, Num DF = 1, Den DF = 95      
+
+Source                   DF  Mean Square   F Value    Pr > F
+-----------------  --------  -----------  --------  --------
+Linear Hypothesis         1     75.71079      1.42    0.2360
+
+     Test 4: F Value = 0.1852, Num DF = 1, Den DF = 95      
+
+Source                   DF  Mean Square   F Value    Pr > F
+-----------------  --------  -----------  --------  --------
+Linear Hypothesis         1      9.85753      0.19    0.6679
+
+     Test 5: F Value = 3.0278, Num DF = 1, Den DF = 95      
+
+Source                   DF  Mean Square   F Value    Pr > F
+-----------------  --------  -----------  --------  --------
+Linear Hypothesis         1    161.17180      3.03    0.0851
+
+     Test 6: F Value = 1.8764, Num DF = 1, Den DF = 95      
+
+Source                   DF  Mean Square   F Value    Pr > F
+-----------------  --------  -----------  --------  --------
+Linear Hypothesis         1     99.87923      1.88    0.1740
+
